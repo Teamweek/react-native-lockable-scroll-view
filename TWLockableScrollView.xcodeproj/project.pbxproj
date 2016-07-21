@@ -1,0 +1,270 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90CC03621D41278C0055E4C9 /* TWLockableScrollView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 90CC03611D41278C0055E4C9 /* TWLockableScrollView.h */; };
+		90CC03641D41278C0055E4C9 /* TWLockableScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CC03631D41278C0055E4C9 /* TWLockableScrollView.m */; };
+		90CC036C1D4128A10055E4C9 /* TWLockableScrollViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CC036B1D4128A10055E4C9 /* TWLockableScrollViewManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		90CC035C1D41278B0055E4C9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				90CC03621D41278C0055E4C9 /* TWLockableScrollView.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		90CC035E1D41278B0055E4C9 /* libTWLockableScrollView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTWLockableScrollView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		90CC03611D41278C0055E4C9 /* TWLockableScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWLockableScrollView.h; sourceTree = "<group>"; };
+		90CC03631D41278C0055E4C9 /* TWLockableScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWLockableScrollView.m; sourceTree = "<group>"; };
+		90CC036A1D4128A10055E4C9 /* TWLockableScrollViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWLockableScrollViewManager.h; sourceTree = "<group>"; };
+		90CC036B1D4128A10055E4C9 /* TWLockableScrollViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWLockableScrollViewManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90CC035B1D41278B0055E4C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90CC03551D41278B0055E4C9 = {
+			isa = PBXGroup;
+			children = (
+				90CC03601D41278C0055E4C9 /* TWLockableScrollView */,
+				90CC035F1D41278B0055E4C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90CC035F1D41278B0055E4C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90CC035E1D41278B0055E4C9 /* libTWLockableScrollView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90CC03601D41278C0055E4C9 /* TWLockableScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				90CC03611D41278C0055E4C9 /* TWLockableScrollView.h */,
+				90CC03631D41278C0055E4C9 /* TWLockableScrollView.m */,
+				90CC036A1D4128A10055E4C9 /* TWLockableScrollViewManager.h */,
+				90CC036B1D4128A10055E4C9 /* TWLockableScrollViewManager.m */,
+			);
+			path = TWLockableScrollView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90CC035D1D41278B0055E4C9 /* TWLockableScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90CC03671D41278C0055E4C9 /* Build configuration list for PBXNativeTarget "TWLockableScrollView" */;
+			buildPhases = (
+				90CC035A1D41278B0055E4C9 /* Sources */,
+				90CC035B1D41278B0055E4C9 /* Frameworks */,
+				90CC035C1D41278B0055E4C9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TWLockableScrollView;
+			productName = TWLockableScrollView;
+			productReference = 90CC035E1D41278B0055E4C9 /* libTWLockableScrollView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90CC03561D41278B0055E4C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Teamweek;
+				TargetAttributes = {
+					90CC035D1D41278B0055E4C9 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 90CC03591D41278B0055E4C9 /* Build configuration list for PBXProject "TWLockableScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 90CC03551D41278B0055E4C9;
+			productRefGroup = 90CC035F1D41278B0055E4C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90CC035D1D41278B0055E4C9 /* TWLockableScrollView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90CC035A1D41278B0055E4C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90CC03641D41278C0055E4C9 /* TWLockableScrollView.m in Sources */,
+				90CC036C1D4128A10055E4C9 /* TWLockableScrollViewManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		90CC03651D41278C0055E4C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../react-native/React/**",
+					"$(SRCROOT)/node_modules/react-native/React/**",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		90CC03661D41278C0055E4C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../react-native/React/**",
+					"$(SRCROOT)/node_modules/react-native/React/**",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90CC03681D41278C0055E4C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		90CC03691D41278C0055E4C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90CC03591D41278B0055E4C9 /* Build configuration list for PBXProject "TWLockableScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90CC03651D41278C0055E4C9 /* Debug */,
+				90CC03661D41278C0055E4C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90CC03671D41278C0055E4C9 /* Build configuration list for PBXNativeTarget "TWLockableScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90CC03681D41278C0055E4C9 /* Debug */,
+				90CC03691D41278C0055E4C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90CC03561D41278B0055E4C9 /* Project object */;
+}
