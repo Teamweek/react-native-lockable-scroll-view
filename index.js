@@ -9,6 +9,14 @@ import {
 class LockableScrollView extends ScrollView {
   constructor(props) {
     super(props);
+
+    this.scrollResponderScrollTo = ({x, y, animated}) => {
+      UIManager.dispatchViewManagerCommand(
+        this.scrollResponderGetScrollableNode(),
+        UIManager.TWLockableScrollView.Commands.scrollTo,
+        [x || 0, y || 0, animated !== false],
+      );
+    };
   }
 
   render() {
