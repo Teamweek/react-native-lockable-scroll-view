@@ -1,6 +1,6 @@
 {
   "name": "react-native-lockable-scroll-view",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "RN component for lockable scroll view that can be used in infinite scrolling lists",
   "main": "index.js",
   "scripts": {
