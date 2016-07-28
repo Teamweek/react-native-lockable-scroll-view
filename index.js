@@ -42,6 +42,15 @@ class LockableScrollView extends ScrollView {
 LockableScrollView.propTypes = ScrollView.propTypes;
 
 const TWLockableScrollView = requireNativeComponent(
-  'TWLockableScrollView', LockableScrollView);
+  'TWLockableScrollView',
+  LockableScrollView, {
+    nativeOnly: {
+      onMomentumScrollBegin: true,
+      onMomentumScrollEnd : true,
+      onScrollBeginDrag: true,
+      onScrollEndDrag: true,
+    }
+  }
+);
 
 export default LockableScrollView;
